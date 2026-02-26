@@ -1,7 +1,7 @@
 # Amazon Sales Analysis: A/B Testing, Statistical Inference & Customer Lifetime Value (LTV)
 
 ## Overview
-This project provides a comprehensive analysis of an Amazon product dataset, focusing on understanding customer behavior, product performance, and long-term customer value. It leverages data cleaning, exploratory data analysis (EDA), A/B testing principles, statistical inference, and Customer Lifetime Value (LTV) modeling to derive actionable business insights.
+This project provides a comprehensive analysis of an Amazon sales dataset, focusing on product pricing, customer engagement, and long-term value. Utilizing Python and key data science libraries, the analysis covers data cleaning, exploratory data analysis (EDA), Customer Lifetime Value (CLV) modeling, A/B testing, and various statistical inferences.
 
 ## Problem Statement
 To identify key drivers of customer engagement and product success on Amazon. This includes understanding the impact of pricing and discounts on ratings and engagement, segmenting customers by value, and providing data-driven recommendations for marketing and product strategy.
@@ -53,7 +53,7 @@ The analysis is based on a dataset of Amazon products, including:
 
 ## Key Findings & Business Insights
 *   **Discounts Drive Engagement:** Products with discounts over 50% statistically significantly increase customer engagement (proxied by rating count) by approximately 6.3%.
-*   **Ratings are Robust:** Neither discount level nor product price significantly impacts average product ratings, indicating that customer satisfaction is largely independent of these factors.
+*   **Ratings are stable:** Neither discount level nor product price significantly impacts average product ratings, indicating that customer satisfaction is largely independent of these factors.
 *   **LTV Concentration:** A small segment of customers (top 25%) accounts for a disproportionately large share (~81%) of the total Customer Lifetime Value, emphasizing the importance of high-value segments.
 *   **Category Performance:** Electronics and computer accessories consistently show the highest potential for LTV and customer engagement.
 
